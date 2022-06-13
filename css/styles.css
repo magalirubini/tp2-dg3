@@ -1231,8 +1231,10 @@ input[type='checkbox'] {
 	}
 
 	.single-pricing .save-box{
-		background-color: #ce9563;
+		background-color: #9e6e45;
 		font-family: "P22 Mackinac Pro";
+		font-weight: 600;
+		color: #f5f1eb;
 		font-size: 20px;
 		padding: 10px;
 		border-radius: 10px;
