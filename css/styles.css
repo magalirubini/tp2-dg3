@@ -119,6 +119,7 @@ h6 {
 
 .p-detalle{
 	text-align: center;
+	font-family: "Raleway Medium";
 }
 
 .p-detalle{
@@ -220,10 +221,8 @@ a:hover {
 	display: inline-block;
 	color: #006068;
 	font-weight: 600;
-	font-size: 16px;
-	line-height: 0;
-	padding-top: 70px;
-	text-decoration: none;
+	font-size: 20px;
+	padding-top: 10px;
 	transition: all 0.2s;
 }
 
@@ -237,12 +236,13 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	margin-top: 15px;
-	padding: 1.3rem 2.625rem 1.3rem 2.625rem;
-	border: 1px solid #006068;
-	border-radius: 32px;
-	background-color: #006068;
+	padding: 1.3rem 3rem 1.3rem 3rem;
+	border: 1px solid #de9d3a;
+	border-radius: 15px;
+	background-color: #de9d3a;
 	color: #ffffff;
 	font-weight: 500;
+	font-family: "Raleway ExtraBold";
 	font-size: 1.2rem;
 	line-height: 0;
 	text-decoration: none;
@@ -250,9 +250,9 @@ a:hover {
 }
 
 .btn-solid-lg:hover {
-	border: 1px solid #006068;
+	border: 1px solid #de9d3a;
 	background-color: transparent;
-	color: #006068; /* needs to stay here because of the color property of a tag */
+	color: #de9d3a; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -526,6 +526,7 @@ input[type='checkbox'] {
 .navbar .logo-image img {
     width: 220px;
 	height: 64px;
+	padding-left: 5px;
 }
 
 .navbar .logo-text {
@@ -538,7 +539,7 @@ input[type='checkbox'] {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 5.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -567,8 +568,7 @@ input[type='checkbox'] {
 	padding-top: 1.3rem;
 	padding-bottom: 0.625rem;
 	color: #f5f1eb;
-	font-family: "Tw Cen TM";
-	font-weight: 700;
+	font-family: "Raleway";
 	font-size: 14px;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -676,9 +676,10 @@ input[type='checkbox'] {
 	margin-bottom: 2rem;
 	margin-top: 50px;
 	color: #006068;
-	font-family: "Tw Cen MT";
-	font-size: 25px;
+	font-family: "Raleway Medium";
+	font-size: 22px;
 	line-height: 22px;
+	text-align: left;
 }
 
 .header .btn-solid-lg {
@@ -691,8 +692,8 @@ input[type='checkbox'] {
 /*    Customers     */
 /********************/
 .slider-1 {
-	padding-top: 2rem;
-	padding-bottom: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	text-align: center;
 	background-color: #006068;
 }
@@ -716,23 +717,36 @@ input[type='checkbox'] {
 /*     Introduction 1   */
 /************************/
 .basic-1 {
-	background-color: #006068;
+	background-color: #ffffff;
 	padding-top: 4rem;
 	padding-bottom: 6rem;
 }
 
 .basic-1 h2 {
-	color: #ffffff;
+	color: #006068;
 }
 
 .basic-1 p{
-	color: white;
-	font-size: 18px;
+	color: #006068;
+	font-family: "Raleway Medium";
+	font-size: 15px;
 	font-weight: 500;
+	text-align: left;
+}
+
+.basic-1 span{
+	color: #de9d3a;
+	font-family: "Raleway Semibold";
 }
 
 .basic-1 b{
 	font-family: "Jasmine Bloom";
+}
+
+.basic-1 .btn-solid-reg-1{
+	color: #de9d3a;
+	font-family: "Raleway Medium";
+	font-weight: 600;
 }
 
 .basic-1 img {
@@ -764,9 +778,11 @@ input[type='checkbox'] {
 
 .basic-1-1 p{
 	color: #006068;
+	font-family: "Raleway Medium";
 	font-size: 18px;
 	font-weight: 800;
 	padding-top: 10px;
+	text-align: left;
 }
 
 .basic-1-1 b{
@@ -781,7 +797,10 @@ input[type='checkbox'] {
 
 .basic-1-1 .parrafo-rojo {
 	color:#d75d4a;
+	font-family: "Raleway Medium";
 	font-weight: 600;
+	font-size: 16px;
+	padding-top: 10px;
 
 }
 
@@ -803,10 +822,35 @@ input[type='checkbox'] {
 }
 
 /************************/
+/*    Banner 4iconos    */
+/************************/
+.banner{
+	background-color: #006068;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.banner .title-banner{
+	color: #f5f1eb;
+	font-family: "Raleway ExtraBold";
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 5px;
+
+}
+
+.banner img{
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+}
+
+/************************/
 /* Que dicen los padres */
 /************************/
 .basic-1-2 {
-	background-color: #ce9563;
+	background-color: #006068;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
@@ -821,14 +865,15 @@ input[type='checkbox'] {
 
 .basic-1-2 p{
 	color: #f5f1eb;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 16px;
 	padding-top: 10px;
 	text-align: center;
+	font-family: "Raleway Medium";
 }
 
 .basic-1-2 b{
-	color: #006068;
+	color: #f5f1eb;
+	font-family: "Raleway Medium";
 }
 
 .basic-1-2 .img{
@@ -836,7 +881,7 @@ input[type='checkbox'] {
 }
 
 .basic-1-2 b{
-	color: #006068;
+	color: #f5f1eb;
 	height: 2px;
 }
 
@@ -871,9 +916,10 @@ input[type='checkbox'] {
 /*     Features     */
 /********************/
 .cards-1 {
-	padding-top: 0rem;
+	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-image: url(../images/Asset\ 19-100.jpg);
+	background-image: url(../images/Asset\ 19-10.jpg);
+	background-color: #f5f1eb;
 	background-size: 100%;
 	background-position-y: bottom;
 	background-origin: border-box;
@@ -887,13 +933,54 @@ input[type='checkbox'] {
 	font-size: 40px;
 }
 
+.cards-1 .h2-heading b{
+	font-family: "Jasmine Bloom";
+}
+
 .cards-1 .p-heading {
 	margin-bottom: 0rem;
-	color: #d75d4a;
-	font-family: "P22 Mackinac Pro";
+	color: #006068;
+	font-family: "Raleway Medium";
 	text-align: center;
-	font-size:20px;
+	font-size: 16px;
 	font-weight: 600;
+}
+
+.cards-1 .h2-body b{
+	color: #d75d4a;
+}
+
+.cards-1-img-top-peach {
+	position: absolute;
+	top: 12px;
+	left: -11%;
+	margin-left: -30px;
+	width: 100px !important;
+	height: 100px;
+}
+
+.cards-1-img-top-lemon {
+	position: absolute;
+	top: 175px;
+	left: -1%;
+	margin-left: -30px;
+	width: 100px !important;
+	height: 100px;
+}
+
+.cards-1-img-top-palta {
+	position: absolute;
+	top: 175px;
+	left: -1%;
+	margin-left: -3px;
+	width: 100px !important;
+	height: 100px;
+}
+
+.cards-1 .cards-1-p{
+	color: #006068;
+	font-family: "Raleway Medium";
+	font-size: 18px;
 }
 
 .cards-1 .card {
@@ -907,9 +994,13 @@ input[type='checkbox'] {
 	border-left: 0px solid #8D80FF;
 }
 
+.cards-1 .cards-icon {
+	text-align: center;
+}
+
 .cards-1 .card-icon {
-	width: 74px;
-	height: 74px;
+	width: 75px;
+	height: 75px;
 	border-radius: 50%;
 	background-color: #006068;
 	text-align: center;
@@ -924,9 +1015,10 @@ input[type='checkbox'] {
 }
 
 
-.cards-1 .card-body {
+.cards-1 .card-body p{
 	padding-top: 25px;
 	text-align: center;
+	
 }
 
 .cards-1 .card-title {
@@ -939,8 +1031,8 @@ input[type='checkbox'] {
 
 .cards-1 .card-body p {
 	color: #006068;
+	font-family: "Raleway Medium";
 	font-size: 18px;
-	font-weight: 600;
 }
 
 .cards-1 .read-more {
@@ -1231,14 +1323,13 @@ input[type='checkbox'] {
 	}
 
 	.single-pricing .save-box{
-		background-color: #9e6e45;
+		background-color: #f5f1eb;
 		font-family: "P22 Mackinac Pro";
 		font-weight: 600;
-		color: #f5f1eb;
+		color: #006068;
 		font-size: 20px;
 		padding: 10px;
-		border-radius: 10px;
-		width: 200px;
+		width: 100%;
 		display: inline-block;
 	}
 
@@ -1269,15 +1360,15 @@ input[type='checkbox'] {
 	.pormes {
 		color: #ce9563;
 		font-family: "P22 Mackinac Pro";
-		font-weight: 100;
+		font-weight: 200;
 		font-size: 20px;
 	}
 
 	.total{
 		color: #f5f1eb;
-		font-family: "Tw Cen TM";
+		font-family: "Raleway Medium";
 		font-size: 20px;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	.card-img-top {
@@ -1290,15 +1381,14 @@ input[type='checkbox'] {
 	}
 		  
 	.card {
-		margin-top: 30px;
+		margin-top: 2px;
 		padding-top: 30px;
 	}
 
 	.pricing-list .cards-body {
 		color: #f5f1eb;
-		font-family: "Tw Cen TM";
-		font-weight: 1000;
-		font-size: 17px;
+		font-family: "Raleway Medium";
+		font-size: 16px;
 		margin-top: 10px;
 	}
 	
@@ -1358,25 +1448,24 @@ input[type='checkbox'] {
 	 	 color: black;
 	  	margin-top: 20px; }
 
-
-
 	  .single-pricing .pricing-btn .main-btn.main-btn-2 {
 		display: inline-block;
 		margin-top: 15px;
 		padding: 1.3rem 2.625rem 1.3rem 2.625rem;
-		border: 1px solid #f5f1eb;
-		border-radius: 32px;
-		background-color: #f5f1eb;
-		color: #006068;
+		border: 1px solid #de9d3a;
+		border-radius: 15px;
+		background-color: #de9d3a;
+		color: #f5f1eb;
 		font-weight: 500;
-		font-size: 1.2rem;
+		font-family: "Raleway Medium";
+		font-size: 16px;
 		line-height: 0;
 		text-decoration: none;
 		transition: all 0.2s; 
 		}
 
 		.single-pricing .pricing-btn .main-btn.main-btn-2:hover {
-			border: 2px solid #f5f1eb;
+			border: 2px solid #de9d3a;
 			background-color: transparent;
 			color: #f5f1eb; /* needs to stay here because of the color property of a tag */
 			text-decoration: none;
@@ -1533,16 +1622,16 @@ input[type='checkbox'] {
 
 .footer .p-copy{
 	color: #f5f1eb;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: center;
 }
 
 .footer a {
 	color: #f5f1eb;
-	font-family: "Tw Cen TM";
+	font-family: "Raleway Medium";
 	font-weight: 600;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 40px;
 	text-decoration: none;
 }
 
@@ -1816,6 +1905,17 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 
+	.h2-body {
+		color: #006068;
+		text-align: center;
+		font-family: "Raleway SemiBold";
+		font-weight: 600;
+	}
+
+	.h2-body b{
+		font-weight: 600;
+	}
+
 	.p-heading1 {
 		font-family: "P22 Mackinac Pro";
 		color: #d75d4a;
@@ -1866,12 +1966,11 @@ a:hover.back-to-top {
 	}
 	
 	.navbar .nav-item .nav-link {
-		font-family: "Tw Cem TM";
+		font-family: "Raleway Medium";
 		padding-right: 1rem;
 		padding-left: 1rem;
 		color: #f5f1eb;
-		font-size: 14px;
-		font-weight: 900;
+		font-size: 13px;
 	}
 	
 
@@ -2032,7 +2131,7 @@ a:hover.back-to-top {
 	
 	.footer .footer-col.second {
 		display: inline-block;
-		width: 220px;
+		width: 255px;
 		margin-right: 1.75rem;
 		vertical-align: top;
 	}
