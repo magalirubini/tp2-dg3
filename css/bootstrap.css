@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   text-align: center;
 }
 
@@ -478,6 +478,10 @@ mark,
   height: auto;
 }
 
+.img-fluid-detalle{
+  padding-top: 50px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -564,9 +568,9 @@ pre code {
   .header {
     background-size: auto;
     background-position: 70%;
+    background-image: url(../images/Asset\ 68.png);
   }
 }
-
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
@@ -593,10 +597,9 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 65px;
+  margin-bottom: 10px;
 }
-
 .row {
   display: -ms-flexbox;
   display: flex;
